@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+	
+	<head>
+	
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- Title -->
+		<title>أقطار للإستشارات الهندسية</title>
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+    	<!-- Bootstrap -->
+    	<link rel="stylesheet" type="text/css" href="assets/library/bootstrap/css/bootstrap.min.css">
+		
+		<!-- Font awesome -->
+		<link rel="stylesheet" type="text/css" href="assets/library/fontawesome/css/all.min.css" />
+		
+		<!-- Linea icons -->
+		<link rel="stylesheet" type="text/css" href="assets/library/linea/arrows/styles.css" />
+		<link rel="stylesheet" type="text/css" href="assets/library/linea/basic/styles.css" />
+		<link rel="stylesheet" type="text/css" href="assets/library/linea/ecommerce/styles.css" />
+		
+		
+		
+		<!-- ahmed code -->
+		<link rel="stylesheet" href="../arcgis/4.25/esri/themes/light/main.css" />
+		<link rel="stylesheet" href="assets/library/linea/arrows/aos.css" />
+		<!--<link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css" />-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&amp;" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&amp;" rel="stylesheet">
+		
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/media.css" type="text/css">
+		
+		<!-- Color schema -->
+		<link class="colors" rel="stylesheet" href="assets/colors/blue.css" type="text/css">
+		
+		<!-- Animated -->
+		<link rel="stylesheet" type="text/css" href="assets/library/animate/animate.css">
+		
+		<!-- Animated headline -->
+		<link rel="stylesheet" type="text/css" href="assets/library/animatedheadline/animated.headline.css">
+		
+		<!-- Owl carousel -->
+		<link rel="stylesheet" type="text/css" href="assets/library/owlcarousel/owl.carousel.min.css">
+		
+		<!-- Slick carousel -->
+		<link rel="stylesheet" type="text/css" href="assets/library/slick/slick.css">
+		
+		<!-- Magnific popup -->
+		<link rel="stylesheet" type="text/css" href="assets/library/magnificpopup/magnific-popup.css">
+		
+		<!-- YTPlayer -->
+		<link rel="stylesheet" type="text/css" href="assets/library/ytplayer/css/jquery.mb.ytplayer.min.css">
+		
+  	</head>
+  
+	<body>
+    
+		<!-- Loader -->
+		<div class="page-loader">
+			<div class="loader-middle">
+				<div class="loader-circle"></div>
+			</div>
+		</div>
+
+		<!-- Navigation bar -->
+		<div class="navbar" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header navbar-right">
+			
+					<!-- Menu for Tablets / Phones -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+			
+					<!-- Logo -->
+					<a class="navbar-brand" href="">
+						<img class="logo-white" src="images/logo/logo.png" alt="Angora" data-rjs="2">
+						<img class="logo-dark" src="images/logo/logo.png" alt="Angora" data-rjs="2">
+					</a>
+				</div>
+			
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-left">
+						<li style="direction:rtl">
+							<a id="sign-in">
+								<i class="fa fa-fw fa-user"></i><span>تسجيل الدخول</span>
+							</a>
+						</li>
+						<!--<li style="direction:rtl">
+							<a style="display:none" id="sign-out">
+								<i class="fas fa-sign-out-alt"></i><span>تسجيل الخروج</span>
+							</a>onclick="getMenue()"dropbtn
+						</li>-->
+						<li style="direction:rtl;display:flex;">
+							<span style="display:none" id="welcome" class="welcome">مرحبــا</span>
+							<a style="display:none" id="profile-info" class="dropbtn" href="javascript:getMenue();">
+								<span class="dropbtn" id="profile-name">Hamadah</span>
+								<img class="dropbtn" id="profile-pic" style="border-radius:50%;width:22px;margin-right:10px" src="images/logo/img_avatar.png">
+								<i class="fa fa-caret-down"></i>
+								<div class="dropdown">
+									<div class="dropdown-content" id="myDropdown">
+										<a href="https://geos.rer.sa/portal"><span>البوابة</span></a>
+										<a href="https://geos.rer.sa/portal/home/content.html"><span>المحتوى</span></a>
+										<a href="https://geos.rer.sa/portal/apps/mapviewer/index.html"><span>الخرائط</span></a>
+										<a id="sign-out"><i class="fas fa-sign-out-alt"></i><span>تسجيل الخروج</span></a>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+			
+					<!-- Items -->
+					<div class="fill">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#clients">الشركاء</a></li>
+							<li><a href="#blog">البيانات</a></li>
+							<li><a href="#portfolio">التطبيقات</a></li>
+							<li><a href="#about">الية العمل</a></li>
+							<li><a href="#intro">البوابة</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- Intro -->
+		<section class="intro" id="intro" data-type="single-image" data-source="images/intro/single-image3.png">
+    
+			<!-- Content -->
+			<div id="corner"><img src="images\intro\corner.png"></div>
+			<div class="container">
+				<div class="content">
+					<div class="row normal-row">
+						<div class="col-md-12 text-center">
+							<div class="row normal-row">
+								<div class="col-lg-5">
+									<!--<h1 style="direction:rtl" class="heading">نظام إدارة البيانات الجيومكانية</h1>-->
+									<h1 class="uppercase cd-headline clip">
+										<span class="blc">بوابة أقطار للخدمات والاستشارات</span>
+										<span class="cd-words-wrapper">
+											<b class="is-visible">تحليل</b>
+											<b>بحث </b>
+											<b>مشاركة</b>
+											<b>إنشاء</b>
+										  </span>
+									</h1>
+									<!--<h2 class="animate fadeIn uppercase cd-headline clip">
+										<span class="cd-words-wrapper">
+											<b class="is-visible">تحليل</b>
+											<b>بحث </b>
+											<b>مشاركة</b>
+											<b>إنشاء</b>
+										</span>
+									</h2>-->
+								</div>
+								<div class="col-lg-6 ml-auto">
+									<div class="dots"></div>
+									<div class="row normal-row">
+										<div class="col-lg-12">
+											<span class="subtext d-block">منصة أقطار للإستشارات</span>
+											<div class="d-flex">
+												<p class="special_p">منصة اقطار هي منصة وبوابة الكترونية مختصة بالاستشارت الهندسية والحلول التقنية لمختلف الخدمات تخدم قطاعات عدة وموسسات وافراد لغاية الوصول للحول التقنية</p>
+												<a class="more-1"></a>
+												<a class="more-2"></a>
+											</div>
+										</div>
+									</div>
+									<div class="row collection">
+										<div class="col-md-4 col-sm-6">
+											<div class="counter wow fadeInUp">
+												<div class="icon icon-ecommerce-bag-plus"></div>
+												<div class="counter-content res-margin">
+													<h5>
+														<span id="count1" class="number-count">1456654</span>
+													</h5>
+													<p>الخدمات</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6">
+											<div class="counter wow fadeInUp" data-wow-delay="0.3s">
+												<div class="icon icon-ecommerce-money"></div>
+												<div class="counter-content res-margin">
+													<h5>
+														<span id="count2" class="number-count">1234456</span>
+													</h5>
+													<p>العائدات والارباح</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6">
+											<div class="counter wow fadeInUp" data-wow-delay="0.6s">
+												<div class="icon icon-basic-book-pen"></div>
+												<div class="counter-content res-margin">
+													<h5>
+														<span id="count3" class="number-count">170</span>
+													</h5>
+													<p>إحصائيات العملاء</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Magic mouse -->
+			<div class="mouse hidden-xs">
+				<a href="#about"><span class="wheel"></span></a>
+			</div>
+
+		</section>
+
+		<!-- About -->
+		<section id="about">
+
+			<!-- Container -->
+			<div class="container">                  
+				<div style="direction:rtl" class="row">
+					<div class="col-md-6 col-sm-6 res-margin">
+						<p>
+							تضم البوابة على المنشورات الفنية والمقالات القصيرة التي تساعد المستخدمين من انشاء العروض التوضيحية واستخدام موارد البوابة الجيومكانية
+						</p>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<span class="subheading">آلية العمل</span>
+							<div class="border-line"></div>
+							<h2 class="section-title">تسلسل خدمات البوابة</h2>
+					</div>
+				</div>	
+
+				<div class="row collection worker">
+
+					<div class="col-md-2 col-sm-4">
+						<div class="feature-single res-margin">
+							
+							<div class="circle">
+								<img class="workflow" src="images/portfolio/satellite.svg">
+							</div>
+							<h3>الدراسة والبحث</h3>
+							<p>المرحلة الاولى دراسة المتطلبات واستعراض الخدمات المناسبة وذلك بعد عمليات البحث المطلوبة لفهم الحلول</p>							
+						</div>
+						
+					</div>
+
+					<div class="col-md-2 col-sm-4">
+						<div class="arrow">
+							<div class="arr-point"></div>
+							<div class="arr-line"></div>
+						</div>
+					</div>
+
+					<!-- Feature 2 -->
+					<div class="col-md-2 col-sm-4">
+						<div class="feature-single res-margin">
+							<div class="circle">
+								<img class="workflow" src="images/portfolio/map2.svg">
+							</div>
+							<h3>الخرائط والبيانات</h3>
+							<p>مرحلة تعد مختصة بجمع وتحليل بيانات المستفيد من الخدمة وذلك لتحليلها ومعرفة الاحتياجات المطلوبة وعرض البيانات في خرائط</p>							
+						</div>
+					</div>
+
+					<div class="col-md-2 col-sm-4">
+						<div class="arrow">
+							
+							<div class="arr-line"></div>
+							<div class="arr-point"></div>
+						</div>
+					</div>
+
+					<!-- Feature 3 -->
+					<div class="col-md-2 col-sm-4">
+						<div class="feature-single res-margin">
+							<div class="circle">
+								<img class="workflow" src="images/portfolio/paper.svg">
+							</div>
+							<h3>الاستشارات والخدمات</h3>
+							<p>تصفح واستكشاف الخدمات والاستشارات المتاحة وذلك لضمات الوصوصل للحلول المناسبة واللتي تلائم احتياجات المستفيد بشكل ميباشر</p>							
+						</div>
+					</div>
+
+					<div class="col-md-2 col-sm-4">
+						<div class="arrow">
+							
+							<div class="arr-line"></div>
+							<div class="arr-point"></div>
+						</div>
+					</div>
+					
+					<!-- Feature 4 -->
+					<div class="col-md-2 col-sm-4 res-margin">
+						<div class="feature-single res-margin">
+							<div class="circle">
+								<img class="workflow" src="images/portfolio/archive.svg">
+							</div>
+							<h3>النتائج</h3>
+							<p>عرض التقارير والنتائج وذلك بعد تحليل المدخلات وجميع المرفقات</p>							
+						</div>
+					</div>
+
+				</div>	
+			</div>
+
+		</section>
+
+		<!-- Portfolio -->
+		<section id="portfolio" class="portfolio bg-grey">
+
+			<!-- Container -->
+			<div class="container">
+				<div style="direction:rtl" class="row">
+					<div class="col-md-8 col-md-offset-2 col-xs-12">
+						<span class="subheading">التطبيقات</span>
+						<div class="border-lineApp"></div>
+						<h2 class="section-title">تطبيقات البوابة</h2>
+						<p>
+							من مميزات البوابة الجيومكانية تنوع التطبيقات حيث تحتوي البوابة 
+							على عدة تصنيفات للتطبيقات منها المواقع و لوحات المؤشرات و العروض الحية
+							على الخرائط وانواع اخرى من التطبيقات 
+						</p>
+						
+					</div>
+						
+				</div>
+
+				<div class="row collection">
+
+					<!-- Filter links -->
+                    <div class="portfolio-filters text-center col-sm-12">
+                        <span data-filter="*" class="active">الكل</span>
+                        <span data-filter=".brand">التطبيقات</span>
+                        <span data-filter=".web">لوحة المؤشرات</span>
+                    </div>
+
+				</div>
+			
+			</div>
+			
+			<div class="container-fluid">
+				
+				<div id="portalApp" class="row portfolio-items clearfix" 
+					 data-on-line-lg="4" 
+					 data-on-line-md="4" 
+					 data-on-line-sm="4"
+					 data-on-line-xs="2">
+            
+                    <!-- Project 1 -->
+					<div>
+						<div class="portfolio-item brand">
+							<img src="images/portfolio/project-1.png">
+							<div class="img-overlay valign">
+								<div class="overlay-info full-width vertical-center">
+									<h6>المستكشف الجغرافي</h6>
+									<p>تطبيق متصفح للخرائط والطبقات الخاصة بخرائط الاساس</p>
+								</div>
+								<a href="" data-rel="poster-frame"></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project 2 -->
+					<div>
+						<div class="portfolio-item web">
+							<img src="images/portfolio/project-2.png">
+							<div class="img-overlay valign">
+								<div class="overlay-info full-width vertical-center">
+									<h6>لوحة مؤشرات</h6>
+									<p>لوحة لعرض المؤشرات الخاصة بالبيانات</p>
+								</div>
+								<a href="" data-rel="elegant-site"></a>
+							</div>	
+						</div>
+					</div>
+					
+					<!-- Project 3 -->
+					<div>
+						<div class="portfolio-item brand">
+							<img src="images/portfolio/project-3.png">
+							<div class="img-overlay valign">
+								<div class="overlay-info full-width vertical-center">
+									<h6>لوحة مؤشرات</h6>
+									<p>لوحة لعرض المؤشرات الخاصة بالبيانات</p>
+								</div>
+								<a href="" data-rel="tri-fold-brochure"></a>
+							</div>	
+						</div>
+					</div>
+					
+					<!-- Project 4 -->
+					<div>
+						<div class="portfolio-item brand">
+							<img src="images/portfolio/project-4.png">
+							<div class="img-overlay valign">
+								<div class="overlay-info full-width vertical-center">
+									<h6>لوحة مؤشرات</h6>
+									<p>لوحة لعرض المؤشرات الخاصة بالبيانات</p>
+								</div>
+								<a href="" data-rel="edith-a5-magazine"></a>
+							</div>	
+						</div>
+					</div>
+					
+					<!-- Project 5 -->
+					<div>
+						<div class="portfolio-item brand">
+							<img src="images/portfolio/project-5.png">
+							<div class="img-overlay valign">
+								<div class="overlay-info full-width vertical-center">
+									<h6>لوحة مؤشرات</h6>
+									<p>لوحة لعرض المؤشرات الخاصة بالبيانات</p>
+								</div>
+								<a href="" data-rel="motorcycle-helmet"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		
+
+		<!-- Blog -->
+		<section id="blog" class="bg-grey">
+
+			<!-- Container -->
+			<div class="container"> 
+				<div style="direction:rtl" class="row">
+					<div class="col-md-6 col-sm-6 res-margin">
+						<p>
+							تضم البوابة على المنشورات الفنية والمقالات القصيرة التي تساعد المستخدمين من انشاء العروض التوضيحية واستخدام موارد البوابة الجيومكانية
+						</p>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<span class="subheading">البيانات</span>
+							<div class="border-line"></div>
+							<h2 class="section-title">البيانات الجيومكانية</h2>
+					</div>
+				</div>
+
+				<div class="row blog-home collection">
+
+					<!-- Post 1 -->
+					<div class="col-md-4 res-margin">
+						<div class="blog-col">
+							<p>
+								<a href="">
+									<img src="images/blog/post_1.png" class="blog-img" alt="" />
+								</a>
+								<span class="blog-category">تطوير وتصميم</span>
+							</p>
+							<div class="blog-wrapper">
+								<div class="blog-text">
+									<h4><a href="">الاستثمار في الابتكار</a></h4>
+									<p>
+										مقال توضيحي لانشاء عرض قصة قصيرة على الخريطة
+										<a href="" class="btn-read-more">اقراء المزيد</a>
+									</p>								
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Post 2 -->
+					<div class="col-md-4 res-margin">
+						<div class="blog-col">
+							<p>
+								<a href="">
+									<img src="images/blog/post_2.png" class="blog-img" alt="" />
+								</a>
+								<span class="blog-category">تطوير وتصميم</span>
+							</p>
+							<div class="blog-wrapper">
+								<div class="blog-text">
+									<h4><a href="">خرائط البحر الاحمر</a></h4>
+									<p>
+										مقال توضيحي لانشاء عرض قصة قصيرة على الخريطة
+										<a href="" class="btn-read-more">اقراء المزيد</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Post 3 -->
+					<div class="col-md-4">
+						<div class="blog-col">
+							<p>
+								<a href="">
+									<img src="images/blog/post_3.png" class="blog-img" alt="" />
+								</a>
+								<span class="blog-category">تطوير وتصميم</span>
+							</p>
+							<div class="blog-wrapper">
+								<div class="blog-text">
+									<h4><a href="">خرائط التضاريس</a></h4>
+									<p>
+										مقال توضيحي لانشاء عرض قصة قصيرة على الخريطة
+										<a href="" class="btn-read-more">اقراء المزيد</a>
+									</p>								
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>	
+	  
+		<!-- Clients -->
+		<section id="clients">
+
+			<!-- Container -->
+			<div class="container">
+				<div style="direction:rtl" class="row">
+					<div class="col-md-6 col-sm-6 res-margin">
+						<p>تعمل المنصة على التكامل مع الشركاء والعملاء لبناء قصص نجاح وشراكة مستدامة متطلعة الى تحقيق مزيد من النجاح والقصص الملهمةط</p>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<span class="subheading">الشركــــــاء</span>
+							<div class="border-line"></div>
+							<h2 class="section-title">عملاء النجـاح</h2>
+					</div>
+				</div>
+
+				<div class="row collection">
+					<div class="col-md-12">
+						<div class="owl-carousel owl-theme clients-slider">
+
+							<!-- Client 1 -->
+							<div class="client">
+								<a href="#"><img src="images/clients/company-1.png" alt="Client 1"></a>
+							</div>
+
+							<!-- Client 2 -->
+							<div class="client">
+								<a href="#"><img src="images/clients/company-2.png" alt="Client 2"></a>
+							</div>
+
+							<!-- Client 3 -->
+							<div class="client">
+								<a href="#"><img src="images/clients/company-3.png" alt="Client 3"></a>
+							</div>
+
+							<!-- Client 4 -->
+							<div class="client">
+								<a href="#"><img src="images/clients/company-4.png" alt="Client 4"></a>
+							</div>
+
+							<!-- Client 5 -->
+							<div class="client">
+								<a href="#"><img src="images/clients/company-5.png" alt="Client 5"></a>
+							</div>
+
+							<!-- Client 6 -->
+							<div class="client">
+								<a href="#"><img src="images/clients/company-6.png" alt="Client 6"></a>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+
+		</section>
+			
+
+		<!-- Footer -->
+		<footer>
+			
+			<!-- Back to top -->
+			<a class="to-top"><i class="fas fa-chevron-up"></i></a>
+			
+			<!-- Widgets -->
+			<div class="footer-widgets">				
+				<div class="container">
+					
+					<div class="row">						
+						<div class="col-md-12">
+
+							<!-- Footer logo -->
+							<p class="footer-logo">
+								<a href="#" title="PIF">
+									<img class="footer-logo-img" src="images/logo/rer_icon.png" alt="GeoPortal" data-rjs="2">
+								</a>
+							</p>		
+						
+						</div>
+					</div>
+					
+					<div class="empty-30"></div>
+					
+					<div class="row">
+						
+						<!-- Contact info -->
+						<div class="col-md-3 col-sm-6 res-margin">
+							<div class="widget">
+								
+								<h5>معلومات التواصل</h5>
+								
+								<div class="textwidget">
+									<p> 
+										الرياض - العقيق<br>
+										ص ب 22341
+									</p>
+									<p>
+										+966 114 421 252<br>
+										<a href="mailto:email@sitename.com">gdms@rer.com</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Useful links -->
+						<div class="col-md-3 col-sm-6 res-margin">
+							<div class="widget">
+								
+								<h5>روابط تهمك</h5>
+								
+								<ul class="footer-menu">
+									<li><a href="#">الدعم الفني</a></li>
+									<li><a href="#">سياسات الخصوصية</a></li>
+									<li><a href="#">الشروط والحقوق</a></li>
+									<li><a href="#">مركز الافكار</a></li>
+									<li><a href="#">التوظيف</a></li>
+								</ul>
+								
+							</div>
+						</div>
+						
+						<!-- Recent posts -->
+						<div class="col-md-3 col-sm-6 res-margin">
+							<div class="widget">
+								
+								<h5>الخرائط</h5>
+								
+								<ul class="footer-menu">
+									<li><a href="">خريطة الاساس</a></li>
+									<li><a href="">الخريطة الجوية</a></li>
+									<li><a href="">الخريطة الحرارية</a></li>
+									<li><a href="">الخريطة العقارية</a></li>
+									<li><a href="">المخططات</a></li>
+								</ul>
+								
+							</div>
+						</div>
+						
+						<!-- Tag cloud -->
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								
+								<h5>معايير مهمة</h5>
+								
+								<div class="tags clearfix">
+									<a href="#" class="tag">خرائط</a>
+									<a href="#" class="tag">تطبيقات</a>
+									<a href="#" class="tag">عقارية</a>
+								</div>
+								
+							</div>
+						</div>
+
+					</div>
+					
+				</div>				
+			</div>
+
+			<!-- Split -->
+			<div class="container-fluid conditions">
+				<div class="row" style="display:inline">
+					<div class="col-lg-6 split-footer">
+						<p class="copyright" style="margin-left: 10px">
+							<a>البوابة تدعم المتصفحات </a>
+						</p>
+						<div class="footer-social">
+							<a href="#" title="Chrome"><i style='font-size:30px' class="fab fa-chrome fa-fw"></i></a>
+							<a href="#" title="Safari"><i style='font-size:30px' class="fab fa-safari fa-fw"></i></a>
+							<a href="#" title="FireFox"><i style='font-size:30px' class="fab fa-firefox fa-fw"></i></a>
+							<a href="#" title="Edge"><i style='font-size:30px' class="fab fa-edge fa-fw"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Copyright -->
+			<div class="footer-widgets">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-6">
+							
+							<!-- Social links -->
+							<div class="footer-social">
+								<a href="#" title="Twitter"><i class="fab fa-twitter fa-fw"></i></a>
+								<a href="#" title="Facebook"><i class="fab fa-facebook-f fa-fw"></i></a>
+								<a href="#" title="Instagram"><i class="fab fa-instagram fa-fw"></i></a>
+								<a href="#" title="Dribbble"><i class="fab fa-dribbble fa-fw"></i></a>
+								<a href="#" title="Pinterest"><i class="fab fa-pinterest fa-fw"></i></a>
+							</div>
+							
+						</div>
+						
+						<div class="col-md-6">
+							
+							<!-- Text -->
+							<p class="copyright">
+								<span></span><a href="#" target="_blank"> جميع الحقوق محفوظة لشركة أقطار للإستشارات الهندسية © 2024</a>
+							</p>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+		</footer>
+
+		<!-- jQuery -->
+		<script src="assets/library/jquery/jquery.js"></script>
+
+		<!-- Bootstrap -->
+		<script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Google Maps -->
+		<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl3tNbzILxgpkrRrC95zil8n86pXQQPrQ"></script>-->
+
+		<!-- Plugins -->
+		<script src="assets/library/retina/retina.min.js"></script>
+		<script src="assets/library/scrollto/jquery.scrollto.min.js"></script>
+		<script src="assets/library/parallax/jquery.parallax.min.js"></script>
+		<script src="assets/library/animatedheadline/animated.headline.js"></script>
+		<script src="assets/library/owlcarousel/owl.carousel.min.js"></script>
+		<script src="assets/library/slick/slick.js"></script>
+		<script src="assets/library/isotope/isotope.pkgd.min.js"></script>
+		<script src="assets/library/waitforimages/jquery.waitforimages.min.js"></script>
+		<script src="assets/library/nav/jquery.nav.min.js"></script>
+		<script src="assets/library/knob/jquery.knob.min.js"></script>
+		<script src="assets/library/waypoints/jquery.waypoints.min.js"></script>
+		<script src="assets/library/counterup/jquery.counterup.min.js"></script>
+		<script src="assets/library/wow/wow.min.js"></script>
+		<script src="assets/library/magnificpopup/jquery.magnific-popup.min.js"></script>
+		<script src="assets/library/ytplayer/jquery.mb.ytplayer.min.js"></script>
+
+		<!-- ArcGIS -->
+		<!--<script src="https://js.arcgis.com/4.26/"></script>-->
+		<script src="../arcgis/4.25/init.js"></script>
+
+		<!-- Main -->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/GeoPortal.js"></script>
+		<script src="assets/js/custom.js"></script>
+	
+  	</body>
+</html>
